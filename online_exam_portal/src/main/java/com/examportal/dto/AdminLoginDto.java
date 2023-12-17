@@ -1,7 +1,5 @@
 package com.examportal.dto;
 
-import jakarta.persistence.Column;
-
 public class AdminLoginDto{
 
 	private int adminId;

@@ -25,8 +25,6 @@ public class Admin {
 	private String adminAddress;
 	@Column(name="admin_mail")
 	private String adminMail;
-	@Column(name="password")
-	private String adminPassword;
 	
 	/*@OneToMany
 	private List<Users>users= new ArrayList<>();
@@ -38,13 +36,12 @@ public class Admin {
 		
 	}
 
-	public Admin(int adminId, char adminName, String adminAddress, String adminMail, String adminPassword) {
+	public Admin(int adminId, char adminName, String adminAddress, String adminMail) {
 		super();
 		this.adminId = adminId;
 		this.adminName = adminName;
 		this.adminAddress = adminAddress;
 		this.adminMail = adminMail;
-		this.adminPassword = adminPassword;
 	}
 
 	public int getAdminId() {
@@ -80,12 +77,9 @@ public class Admin {
 	}
 
 	public String getAdminPassword() {
-		return adminPassword;
+		// TODO Auto-generated method stub
+		return null;
 	}
-
-	public void setAdminPassword(String adminPassword) {
-		this.adminPassword = adminPassword;
-	}
-
 	
+
 }

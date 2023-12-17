@@ -31,7 +31,6 @@ public class UserHistory {
 	public UserHistory() {
 		
 	}
-	
 	public UserHistory(int userHistoryId, int testScore, Date testDate, User user, TestManagement testManagement) {
 		super();
 		this.userHistoryId = userHistoryId;
@@ -40,16 +39,12 @@ public class UserHistory {
 		this.user = user;
 		this.testManagement = testManagement;
 	}
-
-	
 	public int getUserHistoryId() {
 		return userHistoryId;
 	}
-
 	public void setUserHistoryId(int userHistoryId) {
 		this.userHistoryId = userHistoryId;
 	}
-
 	public int getTestScore() {
 		return testScore;
 	}
@@ -62,7 +57,7 @@ public class UserHistory {
 	public void setTestDate(Date testDate) {
 		this.testDate = testDate;
 	}
-	public User getUsers() {
+	public User getUser() {
 		return user;
 	}
 	public void setUser(User user) {
@@ -75,5 +70,5 @@ public class UserHistory {
 		this.testManagement = testManagement;
 	}
 	
-
+	
 }

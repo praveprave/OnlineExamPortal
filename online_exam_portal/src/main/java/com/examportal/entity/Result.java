@@ -58,7 +58,7 @@ public class Result {
 		this.resultId = resultId;
 	}
 
-	public User getUsers() {
+	public User getUser() {
 		return user;
 	}
 
@@ -98,5 +98,5 @@ public class Result {
 		this.examScore = examScore;
 	}
 
-
+	
 }

@@ -1,9 +1,7 @@
 package com.online_exam_portal;
 
 import org.junit.jupiter.api.Test;
-import org.springframework.boot.test.context.SpringBootTest;
 
-@SpringBootTest
 class OnlineExamPortalApplicationTests {
 
 	@Test
@@ -11,3 +9,4 @@ class OnlineExamPortalApplicationTests {
 	}
 
 }
+
